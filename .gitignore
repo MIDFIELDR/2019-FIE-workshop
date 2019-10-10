@@ -1,21 +1,55 @@
-# History files
+# project management directories
+manage
+printpages
+slides
+holding
+*/holding
+*/*/holding
+Video/Decode/Stats/
+
+# misc output formats
+*.pptx
+*/*.pptx
+*.docx
+*/*.docx
+
+# LaTeX byproducts
+*.tex
+*/*.tex
+*.toc
+*/*.toc
+*concordance*
+*/*concordance*
+*.snm
+*/*.snm
+*.nav
+*/*.nav
+*.gz
+*/*.gz
+*.log
+*/*.log
+*.aux
+*/*.aux
+*.out
+*/*.out
+*.vrb
+*/*.vrb
+
+# specific to bookdown
+_publish.R
+_book
+_bookdown_files
+rsconnect
+
+# various R things
+.Renviron
+.Rproj.user
 .Rhistory
-.Rapp.history
-
-# Session Data files
 .RData
-
-# Example code in package build process
+.Rapp.history
 *-Ex.R
-
-# Output files from R CMD build
 /*.tar.gz
-
-# Output files from R CMD check
 /*.Rcheck/
-
-# RStudio files
-.Rproj.user/
 
 # produced vignettes
 vignettes/*.html
@@ -34,3 +68,4 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+.Rproj.user
