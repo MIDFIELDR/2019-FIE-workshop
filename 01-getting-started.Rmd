@@ -166,6 +166,53 @@ htmltools::img(src = knitr::include_graphics("images/midfieldr-help-page.png"),
 
 
 
+
+
+## Troubleshooting {- #troubleshoot-midfieldr} 
+
+If you receive a message like the one below, then midfieldr is not installed yet. 
+
+```{r echo = FALSE}
+htmltools::img(src = knitr::include_graphics("images/package-recent-versions-1.png"), 
+        alt   = "update package screen shot", 
+        style = "left:0px; padding:20px;", 
+        width = "600px")
+```
+
+To respond to a message like this one, 
+
+- Press *Enter* to cancel 
+- Manually install the packages listed in the message using the RStudio  *Packages &gt; Install* pane or using `install.packages("package_name")` in the Console 
+
+In this case, for example, I would type in the Console, 
+```r
+install.packages("digest")
+```
+
+You can install multiple packages using a vector of package names, e.g., 
+```r
+install.packages(c("package-name", "another-package-name", "next-package-name"))
+```
+
+Next 
+
+- Attempt to install midfieldr again: `devtools::install_github(repo = "MIDFIELDR/midfieldr")` 
+- If the message reappears, manually install all packages listed. 
+- Repeat 
+
+Confirm the installation is successful by loading the package and checking the help page comes up.
+
+```r
+library("midfieldr")
+?midfieldr
+```
+
+
+
+
+
+
+
 ## Create an R project {- #create-an-r-project}
 
 To begin any project, we create an RStudio *Project* file and directory. You can recognize an R project file by its *.Rproj* suffix. 
