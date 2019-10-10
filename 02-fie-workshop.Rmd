@@ -16,15 +16,27 @@ knitr::include_graphics("images/midfield-grad-logo.png"),
                width = 90)
 ```
 
-Workshop conducted at the 2019 Frontiers in Education Conference (2019 October) in Cincinanti, OH. 
+Workshop conducted at the 2019 Frontiers in Education Conference (2019 October) in Cincinnati, OH. 
+
+
 
 The goal of the workshop is to share our data, methods, and metrics for intersectional research in student persistence. The workshop is designed for R beginners.
 
-## Pre-workshop setup {-}
 
-- [Getting started](#getting-started) for pre-workshop software installation instructions.
-- [Preface](#midfield-workshops) for an introduction to MIDFIELD and the workshop facilitators. 
+
+
  
+
+## Before you arrive {-}
+
+
+- [Preface](#midfield-workshops) for an introduction to MIDFIELD and the workshop facilitators. 
+- [Getting started](#getting-started) for pre-workshop software installation instructions---assuming you plan on using your own laptop. If not, we will have computers available onsite. 
+- Optional: For several years now, we have been using R to explore and present the stories in the MIDFIELD data. To see a sample of our data graphics, you can follow the links in the [publications](#publications) section.   
+
+
+
+
 
 
 ## Description {-}
@@ -99,7 +111,7 @@ On your computer, if you navigate to the new project folder, you should have at 
 Always begin an R work session by opening the project's Rproj file. Let's practice:
 
 - First, close all RStudio windows 
-- Navigate to the workshop folder you jst created 
+- Navigate to the workshop folder you just created 
 - Open `2019-FIE-midfieldr-workshop.Rproj`
 
 We work within an R project because it automatically sets project directory as the R *working directory*. 

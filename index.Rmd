@@ -114,7 +114,7 @@ The graphics tools in R provide the means to control every pixel in the service 
 
 
 
-## Publications {-} 
+## Publications {- #publications} 
 
 The power of data visualization is discovering the stories in the data. As John Tukey [-@Tukey:1977] put it, "The greatest value of a picture is when it forces us to notice what we never expected to see." 
 
