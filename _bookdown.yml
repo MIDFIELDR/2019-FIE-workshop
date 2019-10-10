@@ -6,4 +6,5 @@ delete_merged_file: true
 output_dir: "docs"
 rmd_files: ["index.Rmd",
 "01-getting-started.Rmd", 
-"02-fie-workshop.Rmd"]
+"02-fie-workshop.Rmd", 
+"03-after-the-workshop.Rmd"]
