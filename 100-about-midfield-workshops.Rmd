@@ -1,6 +1,15 @@
-# About the MIDFIELD workshops {- #about-midfield-workshops}
+# About MIDFIELD workshops {- #about-midfield-workshops}
 
-```{r echo = FALSE}
+
+<!-- This file is included in the book only if it is listed in the _bookdown.yml file. -->
+
+```{r include=FALSE}
+library(knitr)
+opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, collapse = FALSE)
+opts_chunk$set(fig.width = 6, out.width = "70%", fig.align = "center", fig.asp = 0.618)
+```
+
+```{r}
 htmltools::img(src = knitr::include_graphics("images/midfield-grad-logo.png"), 
                alt = 'midfield logo', 
                style = 'left:0px; padding:10px;',
@@ -8,6 +17,10 @@ htmltools::img(src = knitr::include_graphics("images/midfield-grad-logo.png"),
 
 suppressPackageStartupMessages(library("wrapr"))
 ```
+
+
+
+
 
 ## What is midfieldr? {-}
 
@@ -43,10 +56,10 @@ if (pingr::is_online()) {
 # use saved values 
 info_pkg <- readRDS("data/info_pkg.rds")
 n_pkg    <- info_pkg[1]
-date_pkg <- info_pkg[1]
+date_pkg <- info_pkg[2]
 ```
 
-R is an open source language and environment for statistical computing and graphics [@2018rcoreteam], ranked by IEEE in 2018 as the 7th most popular programming language (Python, C++, and Java are the top three) [@2018Cass]. If you are new to R, some of its best features, paraphrasing Wickham  [-@wickham2014advanced], are: 
+R is an open source language and environment for statistical computing and graphics [@2018rcoreteam], ranked by IEEE in 2019 as the 5th most popular programming language (Python, Java, and C are the top three) [@2019Cass]. If you are new to R, some of its best features, paraphrasing Wickham  [-@wickham2014advanced], are: 
   
   - R is free, open source, and available on every major platform, making it easy for others to replicate your work.
 - More than `r n_pkg` open-source R packages are available (`r date_pkg`). Many are cutting-edge tools. 
