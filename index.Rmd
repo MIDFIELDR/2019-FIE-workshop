@@ -12,7 +12,7 @@ description: "A public site: learning to access MIDFIELD data."
 nocite: | 
 ---
 
-# MIDFIELD{- #midfield-workshops}
+# Introduction {- #introduction}
 
 ```{r echo = FALSE}
 # create a bib database for R packages

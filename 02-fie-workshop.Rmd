@@ -16,7 +16,7 @@ knitr::include_graphics("images/midfield-grad-logo.png"),
                width = 90)
 ```
 
-Workshop conducted at the 2019 Frontiers in Education Conference (2019 October) in Cincinnati, OH. 
+Workshop conducted at the 2019 Frontiers in Education Conference (2019-10-16) in Cincinnati, OH. 
 
 
 
@@ -29,12 +29,9 @@ The goal of the workshop is to share our data, methods, and metrics for intersec
 
 ## Before you arrive {-}
 
+If you are joining us for the first time, it is vital that you attempt to set up your computer with the necessary software in advance or it will be difficult to keep up. 
 
-- [Preface](#midfield-workshops) for an introduction to MIDFIELD and the workshop facilitators. 
-- [Getting started](#getting-started) for pre-workshop software installation instructions---assuming you plan on using your own laptop. 
-- Optional: For several years now, we have been using R to explore and present the stories in the MIDFIELD data. To see a sample of our data graphics, you can follow the links in the [publications](#publications) section.   
-
-
+- [Getting started](#getting-started) instructions to install R and RStudio
 
 
 
