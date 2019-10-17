@@ -57,20 +57,20 @@ Participants should be sufficiently familiar with their operating systems to ins
 
 ## Agenda {-}
 
-Workshop activities include active learning, discussion, and self-paced software tutorials. Our 3-hour agenda includes: 
+Workshop activities include active learning, discussion, and self-paced software tutorials. Links to the slides for each segment are listed in the table. 
 
 ```{r}
 suppressPackageStartupMessages(library(tidyverse))
 df <- tribble(
   ~Min, ~Topic, 
   10, "Introductions [[slides](publish_slides/01-2019-FIE-slides-introduction.pdf)]", 
-  5, "The data structures in MIDFIELD and midfieldr", 
-  30, "Finding stories in the data", 
-  35, "Starting with R (tutorial)", 
+  5, "The data structure in MIDFIELD [[slides](publish_slides/03-2019-FIE-data-structure-in-midfield.pdf)]", 
+  30, "Finding stories in the data [[slides](publish_slides/04-2019-FIE-slides-stories-in-the-data.pdf)]", 
+  35, "Starting with R (tutorial) [[slides](publish_slides/05-2019-FIE-slides-starting-with-R.pdf)]", 
   15, "--- break ---", 
-  20, "Elements of effective graphs", 
-  5,  "Introduce midfieldr", 
-  50, "Starting with midfieldr (tutorial)", 
+  20, "Elements of effective graphs [[slides](publish_slides/06-2019-FIE-slides-elements-effective-graphs.pdf)]", 
+  5,  "Introducing midfieldr [[slides](publish_slides/07-2019-FIE-slides-introduce-midfieldr.pdf)]", 
+  50, "Starting with midfieldr (tutorial) [[slides](publish_slides/09-2019-FIE-slides-next-steps.pdf)]", 
   10, "Next steps"
   )
 kable(df)
@@ -80,9 +80,6 @@ kable(df)
 
 
 
-## Slides {-}
-
-Workshop slides can be viewed on Speaker Deck (to be posted after the workshop). 
 
 
 
