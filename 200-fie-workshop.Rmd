@@ -70,8 +70,8 @@ df <- tribble(
   15, "--- break ---", 
   20, "Elements of effective graphs [[slides](publish_slides/06-2019-FIE-slides-elements-effective-graphs.pdf)]", 
   5,  "Introducing midfieldr [[slides](publish_slides/07-2019-FIE-slides-introduce-midfieldr.pdf)]", 
-  50, "Starting with midfieldr (tutorial) [[slides](publish_slides/09-2019-FIE-slides-next-steps.pdf)]", 
-  10, "Next steps"
+  50, "Starting with midfieldr (tutorial) [[slides](publish_slides/08-2019-FIE-slides-starting-with-midfieldr.pdf)]", 
+  10, "Next steps [[slides](publish_slides/09-2019-FIE-slides-next-steps.pdf)]"
   )
 kable(df)
 ```
