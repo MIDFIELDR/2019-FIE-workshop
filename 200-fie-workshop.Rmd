@@ -63,7 +63,7 @@ Workshop activities include active learning, discussion, and self-paced software
 suppressPackageStartupMessages(library(tidyverse))
 df <- tribble(
   ~Min, ~Topic, 
-  10, "Introductions", 
+  10, "Introductions [[slides](publish_slides/01-2019-FIE-slides-introduction.pdf)]", 
   5, "The data structures in MIDFIELD and midfieldr", 
   30, "Finding stories in the data", 
   35, "Starting with R (tutorial)", 
